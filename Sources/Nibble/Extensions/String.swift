@@ -1,5 +1,5 @@
 //
-//  String+Regex.swift
+//  String.swift
 //  Nibble
 //
 //  Created by Aleksey Zgurskiy on 10.11.2020.
