@@ -2,8 +2,8 @@
 //  UITableView.swift
 //  Nibble
 //
-//  Created by Aleksey Zgurskiy on 24.03.2021.
-//  Copyright © 2020 Aleksey Zgurskiy. All rights reserved.
+//  Created by Oleksii Zghurskyi on 24.03.2021.
+//  Copyright © 2021 Oleksii Zghurskyi. All rights reserved.
 //
 
 import UIKit
