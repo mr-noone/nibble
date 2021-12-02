@@ -2,8 +2,8 @@
 //  NibLoadable.swift
 //  Nibble
 //
-//  Created by Aleksey Zgurskiy on 10.11.2020.
-//  Copyright © 2020 Aleksey Zgurskiy. All rights reserved.
+//  Created by Oleksii Zghurskyi on 10.11.2020.
+//  Copyright © 2021 Oleksii Zghurskyi. All rights reserved.
 //
 
 import UIKit

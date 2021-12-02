@@ -2,8 +2,8 @@
 //  NibView.swift
 //  Nibble
 //
-//  Created by Aleksey Zgurskiy on 10.11.2020.
-//  Copyright © 2020 Aleksey Zgurskiy. All rights reserved.
+//  Created by Oleksii Zghurskyi on 10.11.2020.
+//  Copyright © 2021 Oleksii Zghurskyi. All rights reserved.
 //
 
 import UIKit
@@ -23,16 +23,18 @@ open class NibView: UIView, NibRepresentable, NibLoadable {
   public override init(frame: CGRect) {
     super.init(frame: frame)
     contentView = loadNib(Self.nib)
-    viewDidLoad()
+    contentViewDidLoad()
   }
   
   public required init?(coder: NSCoder) {
     super.init(coder: coder)
     contentView = loadNib(Self.nib)
-    viewDidLoad()
+    contentViewDidLoad()
   }
   
   // MARK: - Lifecycle
   
-  @objc open func viewDidLoad() {}
+  @objc open func contentViewDidLoad() {
+    backgroundColor = .clear
+  }
 }
